@@ -5,7 +5,7 @@ The arduino is controlled by HTTP GET requests and is in the format <IP address>
 
 ## GET requests
 
-* Turn on rehearsal light - "<IP address>"/?rehearsal_on
+* Turn on rehearsal light - '<IP address>'/?rehearsal_on
 * Turn on transmission light - <IP address>/?transmission_on
 * Turn on both rehearsal and transmission light - <IP address>/?rehearsal_transmission_on
 * Turn off both rehearsal  lights - <IP address>/?rehearsal_transmission_off
