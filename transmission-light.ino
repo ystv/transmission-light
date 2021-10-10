@@ -3,6 +3,8 @@
  * 
  * Code by Liam Burnand
  * 
+ * Designed for Adruino Uno
+ * 
  * To control this you need to have be able to access this from your local network
  * You send commands to it in the format of <IP address>/?[request]
  * 
