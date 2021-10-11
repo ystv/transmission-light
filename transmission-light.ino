@@ -18,9 +18,9 @@
 #include <Ethernet.h>
 
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };  // Sets the MAC address of the shield
-byte ip[] = { 144, 32, 210, 236 };                    // Sets the IP address of the shield
-byte gateway[] = { 144, 32, 210, 193 };               // Sets the gateway of the network
-byte subnet[] = { 255, 255, 255, 193 };               // Sets the subnet of the network
+byte ip[] = { 10, 104, 19, 4 };                       // Sets the IP address of the shield
+byte gateway[] = { 10, 104, 19, 1 };                  // Sets the gateway of the network
+byte subnet[] = { 255, 255, 255, 0 };                 // Sets the subnet of the network
 
 EthernetServer server(80);  // Starts the web server on port 80
 
