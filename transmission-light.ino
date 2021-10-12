@@ -88,8 +88,8 @@ void loop() {
   EthernetClient client = server.available(); // Allows for a GET request to be recieved
   
   if (client) // Checks if there is a client connected to the web server
-    while (client.connected())
       if (client.available()) {
+        client.setConnectionTimeout(100);
         char c = client.read(); // Reads the GET request
         
         if (readString.length() < 100) readString += c;
