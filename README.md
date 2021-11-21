@@ -4,6 +4,8 @@ This is the indicator light that says whether you are rehearsing, transmitting o
 
 The arduino is controlled by HTTP GET requests and is in the format \<IP address\>/?[request].
 
+This can also be controlled from the desk push-buttons, see the controller section.
+
 ## GET requests
 
 * Turn on rehearsal light - \<IP address\>/?rehearsal_on
