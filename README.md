@@ -1,4 +1,5 @@
 # transmission-light
+
 This is the indicator light that says whether you are rehearsing, transmitting or both.
 
 The arduino is controlled by HTTP GET requests and is in the format \<IP address\>/?[request].
@@ -9,6 +10,10 @@ The arduino is controlled by HTTP GET requests and is in the format \<IP address
 * Turn on transmission light - \<IP address\>/?transmission_on
 * Turn on both rehearsal and transmission light - \<IP address\>/?rehearsal_transmission_on
 * Turn off both rehearsal  lights - \<IP address\>/?rehearsal_transmission_off
+
+## Transmission light controller
+
+See [transmission-light-controller](https://github.com/ystv/transmission-light-controller)
 
 ## Schematic
 
