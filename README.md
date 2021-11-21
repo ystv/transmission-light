@@ -17,4 +17,4 @@ See [transmission-light-controller](https://github.com/ystv/transmission-light-c
 
 ## Schematic
 
-<img width="959" alt="Schematic" src="https://user-images.githubusercontent.com/20305872/142749979-c76595e6-6f84-4747-8471-53a6529790ec.png">
+<img width="887" alt="Schematic" src="https://user-images.githubusercontent.com/20305872/142750597-83e6f535-9ca5-46f1-84dd-e6f781e2384e.png">
