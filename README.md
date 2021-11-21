@@ -3,7 +3,7 @@ This is the indicator light that says whether you are rehearsing, transmitting o
 
 The arduino is controlled by HTTP GET requests and is in the format \<IP address\>/?[request].
 
-## GET requests
+### GET requests
 
 * Turn on rehearsal light - \<IP address\>/?rehearsal_on
 * Turn on transmission light - \<IP address\>/?transmission_on
